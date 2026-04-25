@@ -19,13 +19,13 @@
 * Loan default risk
 
 ### Specific Probloem 
-* Predicting loan default risk for young adults within the first year of the loan being issued
+* Predicting loan default risk for young adults with education loans
 
 ### Motivation 
 The motivation behind focusing on loan default risk for young adults because it relates to my peers and myself the most as we work our way through college and get closer to needing to pay off loans. This problem is most related to our future and I think it is important to understand some of the reasoning and other aspects of prediction for such a big topic that can impact us. Additionally, learning more about those patterns can help students and young adults make better financial decisions and be more prepared for the future.
 
 ### Rationale 
-The rationale of the refinement is focused on the fact that the young adult demographic is usually considered more vulnerable in terms of financial stability because they have less work experience and credit history to stand on. Looking at specifically the first 12 months of when the loan is issued is important because that is also the most vulnerable time for a person to default. Concentrating on young adults during the first 12 months of the loan creates a more consistent group to study, which can improve the accuracy and usefulness of the predictive model, instead of having a broad group to study.
+The rationale of the refinement is focused on the fact that the young adult demographic is usually considered more vulnerable in terms of financial stability because they have less work experience and credit history to stand on. Focusing on educational loans allows us to form a more specific demographic. While young adults may struggle with all types of loans, educational loans are usually the biggest and most common type of loans that are taken out by an average adult. Concentrating on this subset of the population creates a more consistent group to study, which can improve the accuracy and usefulness of the predictive model, instead of having a broader group to study. 
 
 ### Press Release 
 [The Hidden Factors Behing Young Adult Loan Defaults](https://github.com/ivasslides/ds4320-project2/blob/main/press-release.md) 
