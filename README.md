@@ -8,7 +8,7 @@ This repository contains background information, metadata, and Python code for D
 | :--- | :--- | 
 | Name | Iliana Vasslides | 
 | NetID| fbv2sc| 
-| DOI | ...| 
+| DOI | [link](https://doi.org/10.5281/zenodo.19858859) | 
 | Press Release | [link to press release](https://github.com/ivasslides/ds4320-project2/blob/main/press-release.md) | 
 | Pipeline | [link](https://github.com/ivasslides/ds4320-project2/blob/main/pipelines/0-pipeline.md) | 
 | License | [link](https://github.com/ivasslides/ds4320-project2/tree/main?tab=MIT-1-ov-file) | 
