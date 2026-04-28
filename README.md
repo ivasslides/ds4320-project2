@@ -8,10 +8,10 @@ This repository contains background information, metadata, and Python code for D
 | :--- | :--- | 
 | Name | Iliana Vasslides | 
 | NetID| fbv2sc| 
-| DOI | [link](https://doi.org/10.5281/zenodo.19858859) | 
+| DOI | [link to DOI](https://doi.org/10.5281/zenodo.19858859) | 
 | Press Release | [link to press release](https://github.com/ivasslides/ds4320-project2/blob/main/press-release.md) | 
-| Pipeline | [link](https://github.com/ivasslides/ds4320-project2/blob/main/pipelines/0-pipeline.md) | 
-| License | [link](https://github.com/ivasslides/ds4320-project2/tree/main?tab=MIT-1-ov-file) | 
+| Pipeline | [link to pipeline](https://github.com/ivasslides/ds4320-project2/blob/main/pipelines/0-pipeline.md) | 
+| License | [link to license](https://github.com/ivasslides/ds4320-project2/tree/main?tab=MIT-1-ov-file) | 
 
 ## Problem Definiton 
 ### General Problem 
@@ -120,7 +120,7 @@ The implicit schema below works to group the different features in such a way th
 }
 
 ### Data Summary 
-summary of database contents 
+Summary of Database collections
 | Collection | Description | Example | 
 | :--- | :--- | :--- |
 | *loan_data* | Cleaned data that was used for analysis | {"_id": "69ed2d5fe12bd39801372ba4", "age": 22, "income": 59000, ... "cred_hist_length": 3} | 
