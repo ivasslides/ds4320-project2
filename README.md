@@ -62,10 +62,12 @@ To start my project, I found a loan approval prediction dataset on Kaggle which 
 ### Code Used 
 | File | Brief Description| Link | 
 | :--- | :--- | :--- | 
-| 0-pipline.md | Markdown file containing the analysis and visualization code | ... | 
-| 1-cleaning.ipynb | Imports dataset, cleans columns, filters by age, and removes NaNs  | ... | 
-| 2-analysis.ipynb | Performs data processing, trains Logistic Regression model to predict loan status for education loans specifically, and outputs feature importance | ... | 
-| 3-visualization.ipynb | Creates a bar chart visualizing the feature importances from the analysis | ... | 
+| *0-pipline.md* | Markdown file containing the analysis and visualization code | ... | 
+| *1-cleaning.ipynb* | Imports dataset, cleans columns, filters by age, and removes NaNs  | ... | 
+| *2-analysis.ipynb* | Performs data processing, trains Logistic Regression model to predict loan status for education loans specifically, and outputs feature importance | ... | 
+| *3-visualization.ipynb* | Creates a bar chart visualizing the feature importances from the analysis | ... | 
+| *press-release.ipynb* | Creates the bar chart displaying the loan status of young adults, split into multiple subsection age groups, to support the Press Release | [link](https://github.com/ivasslides/ds4320-project2/blob/main/press-release.ipynb) | 
+| *quant-of-uncertainty.ipynb* | Calculates mean, standard deviation, standard error, and confidence interval for all numerical features, and results are highlighted in Metadata/Uncertainty. | [link](https://github.com/ivasslides/ds4320-project2/blob/main/quant-of-uncertainty.ipynb)
 
 ### Rationale 
 The rationale for filtering the dataset to only rows where `age` is between 20 and 34 years old was to minimize any selection bias that might have occurred in the sample of the population. By training the model on only data that represents 'young adults', the model is more likely to have accurate predictions for a larger population of 'young adults'. The rationale for imputing missing values was to have a more complete dataset for the model to be trained on. Removing any rows with missing data could have shrunk the dataset too small, where the model would not have sufficient data to be trained on, and so imputing is the next best way to fill these values, without introducing too much extra bias.
