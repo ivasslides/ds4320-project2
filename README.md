@@ -10,8 +10,8 @@ This repository contains background information, metadata, and Python code for D
 | NetID| fbv2sc| 
 | DOI | ...| 
 | Press Release | [link to press release](https://github.com/ivasslides/ds4320-project2/blob/main/press-release.md) | 
-| Pipeline | ... | 
-| License | ... | 
+| Pipeline | [link](https://github.com/ivasslides/ds4320-project2/blob/main/pipelines/0-pipeline.md) | 
+| License | [link](https://github.com/ivasslides/ds4320-project2/tree/main?tab=MIT-1-ov-file) | 
 
 ## Problem Definiton 
 ### General Problem 
@@ -62,10 +62,10 @@ To start my project, I found a loan approval prediction dataset on Kaggle which 
 ### Code Used 
 | File | Brief Description| Link | 
 | :--- | :--- | :--- | 
-| *0-pipline.md* | Markdown file containing the analysis and visualization code | ... | 
-| *1-cleaning.ipynb* | Imports dataset, cleans columns, filters by age, and removes NaNs  | ... | 
-| *2-analysis.ipynb* | Performs data processing, trains Logistic Regression model to predict loan status for education loans specifically, and outputs feature importance | ... | 
-| *3-visualization.ipynb* | Creates a bar chart visualizing the feature importances from the analysis | ... | 
+| *0-pipline.md* | Markdown file containing the analysis and visualization code | [link](https://github.com/ivasslides/ds4320-project2/blob/main/pipelines/0-pipeline.md) | 
+| *1-cleaning.ipynb* | Imports dataset, cleans columns, filters by age, and removes NaNs  | [link](https://github.com/ivasslides/ds4320-project2/blob/main/pipelines/1-cleaning.ipynb) | 
+| *2-analysis.ipynb* | Performs data processing, trains Logistic Regression model to predict loan status for education loans specifically, and outputs feature importance | [link](https://github.com/ivasslides/ds4320-project2/blob/main/pipelines/2-analysis.ipynb) | 
+| *3-visualization.ipynb* | Creates a bar chart visualizing the feature importances from the analysis | [link](https://github.com/ivasslides/ds4320-project2/blob/main/pipelines/3-visualization.ipynb) | 
 | *press-release.ipynb* | Creates the bar chart displaying the loan status of young adults, split into multiple subsection age groups, to support the Press Release | [link](https://github.com/ivasslides/ds4320-project2/blob/main/press-release.ipynb) | 
 | *quant-of-uncertainty.ipynb* | Calculates mean, standard deviation, standard error, and confidence interval for all numerical features, and results are highlighted in Metadata/Uncertainty. | [link](https://github.com/ivasslides/ds4320-project2/blob/main/quant-of-uncertainty.ipynb)
 
@@ -149,7 +149,7 @@ To get quantification of uncertainty for numerical features, I calculated some b
 |:--- | :--- | :--- | :--- | :--- |
 | age	| 25.89 |	3.44| 0.02 |25.85- 25.93|
 | income	|64149.33	|41883.03	| 248.12| 	63663.02- 64635.63|
-| emp_length|4.61|3.76|	0.02|4.57-4.65|
+| emp_length |4.61|3.76|	0.02|4.57-4.65|
 |loan_grade|	2.21|	1.16|	0.01|	2.20-2.22|
 |loan_amnt|	9536.37	|6271.80	|37.15|	9463.55-9609.19|
 |loan_int_rate	|10.99|	3.08|	0.02|	10.96-11.03|
